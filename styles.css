@@ -1,0 +1,63 @@
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #057857;
+}
+
+body{
+    margin: 0;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    min-height: 250px;
+    max-height: 450px;
+    background-color: #38bdf8; 
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.count{
+    display: flex;
+    width: 155px;
+    height: 120px;
+    background-color: #0269a1;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    color: #34d399;
+    padding: 10px 0 0 0;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin: 0;
+}
+
+.settings{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.settings > button{
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  border: 1px solid #4d1d95;
+  border-radius: 5px;
+  padding: 7px 5px 6px 5px;
+  color: #384152;
+  background-color: #38bdf8;
+  margin-top: 15px;
+}
+
+.reset{
+    background-color: #38bdf8;
+    border: 1px solid #a7f3cf;
+    border-top: none;
+    color: #6de7b6;
+    font-size: 20px;
+}
